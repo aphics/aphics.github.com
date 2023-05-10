@@ -1,0 +1,17 @@
+.header-container{
+    background-color: rgb(24, 85, 218);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-img{
+    width: 10vw;
+    margin: 5px;
+
+}
+
+body{
+    background-color: rgba(255, 0, 0, 0.438);
+    margin: 20px 20px;
+}
