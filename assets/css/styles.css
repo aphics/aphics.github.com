@@ -28,10 +28,17 @@ body{
 .card-header{
     background-color: var(--color1);
     color: var(--color4);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 li.active{
     background-color: var(--color2) !important;
     border-color: var(--color2) !important;
     color: var(--color1);
+}
+
+i{
+    margin: 0 8px;
 }
