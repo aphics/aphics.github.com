@@ -1,17 +1,37 @@
+:root{
+    --color1: #537188;
+    --color2: #CBB279;
+    --color3: #E1D4BB;
+    --color4: #EEEEEE;
+}
+
 .header-container{
-    background-color: rgb(24, 85, 218);
+    background-color: var(--color1);
+    color: var(--color4);
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-radius: 2% / 14%;
 }
 
 .hero-img{
     width: 10vw;
     margin: 5px;
-
+    border-radius: 10%;
 }
 
 body{
-    background-color: rgba(255, 0, 0, 0.438);
+    background-color: var(--color4);
     margin: 20px 20px;
+}
+
+.card-header{
+    background-color: var(--color1);
+    color: var(--color4);
+}
+
+li.active{
+    background-color: var(--color2) !important;
+    border-color: var(--color2) !important;
+    color: var(--color1);
 }
