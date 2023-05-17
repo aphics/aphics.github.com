@@ -1,9 +1,10 @@
 :root{
-    --color1: #537188;
-    --color2: #CBB279;
-    --color3: #E1D4BB;
-    --color4: #EEEEEE;
+    --color1: #1E3040;
+    --color2: #0896A6;
+    --color3: #0BADBF;
+    --color4: #CEF2E8;
 }
+
 
 .header-container{
     background-color: var(--color1);
